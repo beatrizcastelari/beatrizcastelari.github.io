@@ -336,6 +336,12 @@ body{
     font-weight: bold;
     color: #171616;   
 }
+.botao-resp {
+    display: none;
+}
+.container-img-projetos h2 {
+    display: none;
+}
 .icones-footer{
     display: flex;
     justify-content: center;
@@ -580,15 +586,16 @@ form button:hover {
     height: 250px;
     display: block;
     
+    
    
 }
 .container-img-projetos{
     width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 0px;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 0px;
     border-radius: 20px;
     padding-bottom: 100px;
    
@@ -610,6 +617,34 @@ form button:hover {
 }
 .img-projetos:hover p {
     display: none;
+}
+.container-img-projetos h2 {
+    text-align: center;
+    color: #4d0344;
+    font-size: 19px;
+    font-weight: bold;
+    display: block;
+}
+.botao-resp {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+   
+    
+}
+.botao-resp a {
+    width: 35%;
+    height: 25px;
+    background-color: #560e4e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 .container-footer input {
@@ -635,6 +670,7 @@ label {
 }
 
 }
+
 @media screen and ( min-width: 501px) and (max-width:1023px) {
     .container-header{
         flex-direction: column;
@@ -659,6 +695,62 @@ label {
     }
     .slide-item img{
         width: 70px
+    }
+    .container-img-projetos h2 {
+        text-align: center;
+        color: #4d0344;
+        font-size: 19px;
+        font-weight: bold;
+        display: block;
+    }
+    .botao-resp {
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        text-align: center;
+        margin-bottom: 60px;
+        margin-top: 20px;
+       
+        
+    }
+    .botao-resp a {
+        width: 35%;
+        height: 25px;
+        background-color: #560e4e;
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        padding-top: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .container-img-projetos img{
+        width: 300px;
+        height: 250px;
+        display: block;
+        
+        
+       
+    }
+    .container-img-projetos{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+        margin-top: 0px;
+        border-radius: 20px;
+        padding-bottom: 100px;
+       
+    }
+    .container-projetos{
+        margin-top:100px ;
+        display: flex;
+        justify-content: center;
+        min-width: 100%;
+        background-color: #f5f3f3;
+        
+    
     }
 }
 @media screen and ( min-width: 1024px) and (max-width:1200px) {
